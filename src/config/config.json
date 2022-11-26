@@ -1,0 +1,34 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "NewVeg",
+        "app_desc": "Global platform for E-Veg Shopping",
+        "node_port": 3001,
+        "json_indentation": 4,
+        "database": "newveg_dev"
+    },
+    "testing": {
+        "config_id": "testing",
+        "database": "newveg_test"
+    },
+    "staging": {
+        "config_id": "staging",
+        "node_port": 8080,
+        "database": "newveg_stage"
+    },
+    "production": {
+        "config_id": "production",
+        "node_port": 8080,
+        "database": "newveg_prod"
+    },
+    "PROFILE_BANNER_COUNT":3,
+    "SMTP_SERVICE":"gmail",
+    "SMTP_EMAIL":"sportscrewlive@gmail.com",
+    "SMTP_PWD":"@3926Nanmaran",
+    "MONGO_ATLAS_PW": "Admin@123",
+    "secret": "wlXOYhVkCiMFje81GIvRCnyU2j29wHQ92j5UWlvOtOHNMdVbrUoqJA43HwPN35JEoqlEf4cowk9ZOrRAiRvxCQ",
+    "refreshTokenSecret": "mQOGISBqHxelilN3wllQqSkwwy-Safbn8TYZd0P7u7zxI3VYpanhHy_hDvoVQ9AwkKEd_RrMytvp5tmouHDxEw",
+    "port": 3001,
+    "tokenLife": 3600,
+    "refreshTokenLife": 86400
+}

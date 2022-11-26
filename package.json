@@ -1,22 +1,42 @@
 {
-  "name": "starter-express-api",
+  "name": "NewVeg",
   "version": "1.0.0",
-  "description": "",
+  "description": "Global Platform for Street players (including all kind of sports)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cyclic-software/starter-express-api.git"
+  "author": {
+    "name": "Selladurai Murugesan",
+    "email": "mselva358@gmail.com",
+    "url": "http://www.sportscrew.com/"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cyclic-software/starter-express-api/issues"
-  },
-  "homepage": "https://github.com/cyclic-software/starter-express-api#readme",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "ffi-napi": "^3.0.1",
+    "generate-password": "^1.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.19",
+    "mongoose": "^5.9.18",
+    "node-gyp": "^7.0.0",
+    "nodemailer": "^6.4.8",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "randomatic": "^3.1.1",
+    "ref-struct-di": "^1.1.1",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }
